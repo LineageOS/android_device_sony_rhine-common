@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_869fa702",
+        "filename": "rootdir/fstab.qcom",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 7874
+      },
+      "writtenOn": "2014-03-26T09:09:58Z",
+      "side": 1,
+      "message": "you should drop discard, fstrim does it.  and barrier is \u003d0 by default",
+      "revId": "d49f9ffab2d49b7a0e88be01a224bf7eae11b327",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
