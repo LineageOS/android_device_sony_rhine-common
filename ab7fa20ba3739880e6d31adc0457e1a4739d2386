@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_2aa04790",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-08-16T19:52:11Z",
+      "side": 1,
+      "message": "write /sys/module/msm_thermal/core_control/enabled 0",
+      "revId": "ab7fa20ba3739880e6d31adc0457e1a4739d2386",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_8aad1b8b",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 699,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-08-16T19:52:11Z",
+      "side": 1,
+      "message": "write /sys/module/msm_thermal/core_control/enabled 1",
+      "revId": "ab7fa20ba3739880e6d31adc0457e1a4739d2386",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
