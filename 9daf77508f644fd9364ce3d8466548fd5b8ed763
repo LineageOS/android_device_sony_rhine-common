@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_99e4493c",
+        "filename": "rhine.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-08-29T04:37:36Z",
+      "side": 1,
+      "message": "This isn\u0027t used by audio-caf",
+      "revId": "9daf77508f644fd9364ce3d8466548fd5b8ed763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_f9cf3db1",
+        "filename": "rhine.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-08-29T04:37:36Z",
+      "side": 1,
+      "message": "These are useless when ro.qc.sdk.audio.fluencetype\u003dnone",
+      "revId": "9daf77508f644fd9364ce3d8466548fd5b8ed763",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
