@@ -16,6 +16,23 @@
       "revId": "15587844709ed68fb0e8fd8ad793514c702b9512",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_903a53cc",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 447,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-02T20:05:09Z",
+      "side": 1,
+      "message": "Isn\u0027t this a duplicate statement?",
+      "revId": "15587844709ed68fb0e8fd8ad793514c702b9512",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
