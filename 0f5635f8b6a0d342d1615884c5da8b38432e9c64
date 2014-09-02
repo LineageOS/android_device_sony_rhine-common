@@ -16,6 +16,24 @@
       "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_952525c4",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 357,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2014-09-02T18:06:00Z",
+      "side": 1,
+      "message": "OK I checked around, everyone else also writes 4 in \u0027on charger\u0027, I suppose Oppo has another reason to write 2? I couldn\u0027t find much documentation on this",
+      "parentUuid": "7a1b2928_d5495dd2",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
