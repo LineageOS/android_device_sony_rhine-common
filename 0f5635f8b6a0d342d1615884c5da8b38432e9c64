@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_556eedc9",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-09-02T01:02:09Z",
+      "side": 0,
+      "message": "this exist",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_1574759a",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-09-02T01:02:09Z",
+      "side": 0,
+      "message": "this exist",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_f578d991",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-09-02T01:02:09Z",
+      "side": 0,
+      "message": "this exist",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_753e89b9",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-09-02T01:02:09Z",
+      "side": 0,
+      "message": "this exist",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_357371b3",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2014-09-02T01:02:09Z",
+      "side": 0,
+      "message": "rmnet_usb0 exist, but i\u0027m not sure if it can be used on this platform",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
