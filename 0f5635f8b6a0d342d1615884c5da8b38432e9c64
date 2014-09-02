@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7a1b2928_f5d73921",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2014-09-02T09:26:52Z",
+      "side": 0,
+      "message": "not used by us, only used by other device in service bt-dun to connect to /dev/rfcomm0",
+      "parentUuid": "7a1b2928_556eedc9",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1b2928_1574759a",
         "filename": "rootdir/init.qcom.rc",
         "patchSetId": 1
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "7a1b2928_35b531cd",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2014-09-02T09:26:52Z",
+      "side": 0,
+      "message": "actually this is a mistake (should remove hdcp/tp) but this is obsolete",
+      "parentUuid": "7a1b2928_f578d991",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1b2928_753e89b9",
         "filename": "rootdir/init.qcom.rc",
         "patchSetId": 1
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "7a1b2928_55b0addd",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2014-09-02T09:26:52Z",
+      "side": 0,
+      "message": "Obsolete, nobody else does this",
+      "parentUuid": "7a1b2928_753e89b9",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a1b2928_357371b3",
         "filename": "rootdir/init.qcom.rc",
         "patchSetId": 1
@@ -81,6 +135,24 @@
       "writtenOn": "2014-09-02T01:02:09Z",
       "side": 0,
       "message": "rmnet_usb0 exist, but i\u0027m not sure if it can be used on this platform",
+      "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_55dd4d41",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2014-09-02T09:26:52Z",
+      "side": 0,
+      "message": "only used by APQ chips with separate modem chip",
+      "parentUuid": "7a1b2928_357371b3",
       "revId": "0f5635f8b6a0d342d1615884c5da8b38432e9c64",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
