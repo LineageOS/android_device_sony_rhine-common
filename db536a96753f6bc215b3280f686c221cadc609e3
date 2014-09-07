@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_5ab56ecb",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-09-07T17:05:33Z",
+      "side": 0,
+      "message": "This line is why the service was \u0027disabled\u0027, so that it was started only after the needed directories and files were created.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_bacac24d",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-09-07T17:05:33Z",
+      "side": 0,
+      "message": "This should be late_start now, not that it would matter since it is disabled.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_9ac70645",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-09-07T17:05:33Z",
+      "side": 0,
+      "message": "See above comment, this shouldn\u0027t be removed and/or the above should be changed to class late_start",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
