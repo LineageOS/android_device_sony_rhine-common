@@ -67,6 +67,108 @@
       "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_55825f53",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "It looks like taimport writes to:\n* /data/etc/wlan_macaddr0\n* /data/etc/wlan_macaddr1\n* /data/etc/wlan_macaddr2\n* /data/etc/wlan_macaddr3\n* /data/etc/wlan_txpower_2_4g\n* /data/etc/wlan_txpower_5g_low\n* /data/etc/wlan_txpower_5g_mid\n* /data/etc/wlan_txpower_5g_high\n* /data/etc/bluetooth_bdaddr\n\nWhat looks at this stuff:\n* sony/rhine-common/proprietary/bin/hci_qcomm_init (called by sony/rhine-common/rootdir/system/etc/init.qcom.bt.sh)\n* sony/qcom-common/mac-update (called twice in here)\n* sony/rhine-common/rootdir/system/etc/init.qcom.bt.sh (late in boot, after the tmpfs that may be at /data right now is gone. I don\u0027t think it is worth addressing this; see the cover message.)",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_3587e362",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "These two probably rely on the tad stuff started earlier. No apparent references to /data though.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_957cf773",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "Seems to not reference /data.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_75815b4a",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "Reads /data/misc/wifi/WCNSS_qcom_wlan_cal.bin and /data/misc/wifi/WCN_FACTORY",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_d5966f93",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "References /data/cm.log.*, probably doesn\u0027t really matter.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_b593f3a2",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T12:05:12Z",
+      "side": 0,
+      "message": "Reads /system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin, patches in the MAC from /data/etc files (see above) to /data/misc/wifi/prima/WCNSS_qcom_wlan_nv.bin.  The latter is loaded by the kernel driver through a firmware request.\n\nThis probably has the same minor issue as init.qcom.bt.sh, where an encrypted system can\u0027t see what taimport wrote to /data/etc for the MAC address.",
+      "revId": "db536a96753f6bc215b3280f686c221cadc609e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
