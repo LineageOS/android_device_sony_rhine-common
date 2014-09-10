@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_cb3fee23",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-10T06:08:40Z",
+      "side": 1,
+      "message": "Do the 1-3 files exist in practice?  I\u0027ve seen references to them, but my system only has the 0.",
+      "revId": "31f08e9299e14498d76b65cda0003898f62fbeb6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
