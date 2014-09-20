@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_343513da",
+        "filename": "combinedroot/init.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-09-20T08:47:46Z",
+      "side": 1,
+      "message": "Should probably put the formatting change in a different commit.",
+      "revId": "a042a24adf2412e83fb0bc5cd016cb0171e24857",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
