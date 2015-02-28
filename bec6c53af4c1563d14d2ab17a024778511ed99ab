@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_eaaf677b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-28T05:33:12Z",
+      "side": 1,
+      "message": "I would rather have this as \"Enable FM Radio\"",
+      "revId": "bec6c53af4c1563d14d2ab17a024778511ed99ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_6aad3788",
+        "filename": "cm.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-28T05:33:12Z",
+      "side": 1,
+      "message": "Move this to the end.\nIt\u0027s better having newer additions (and non device/board/platform specific stuff) at the end as well.",
+      "revId": "bec6c53af4c1563d14d2ab17a024778511ed99ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_4aaaf371",
+        "filename": "rhine.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-28T05:33:12Z",
+      "side": 1,
+      "message": "No need for this case change, can keep it \"FM Radio\"",
+      "revId": "bec6c53af4c1563d14d2ab17a024778511ed99ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_8aba2bbf",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 3
+      },
+      "lineNbr": 611,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-28T05:33:12Z",
+      "side": 1,
+      "message": "Eww.\n\nJust call setprop directly, outside of a service.",
+      "revId": "bec6c53af4c1563d14d2ab17a024778511ed99ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
