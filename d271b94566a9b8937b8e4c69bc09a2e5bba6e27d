@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_8b909097",
+        "filename": "rootdir/fstab.qcom",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2015-05-10T05:56:58Z",
+      "side": 1,
+      "message": "Technically you should probably have noemulatedsd on this one too.  Removable storage should be apparently never be emulated and that\u0027s probably what your storage_list.xml says.",
+      "revId": "d271b94566a9b8937b8e4c69bc09a2e5bba6e27d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
