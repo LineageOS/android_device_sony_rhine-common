@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_9a228fb8",
+        "filename": "rhine.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-05-16T01:52:27Z",
+      "side": 1,
+      "message": "Could you move this one line above, below init but above ueventd?",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 65
+      },
+      "revId": "5c11480e452686bb96e527a75171450082ae2795",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
