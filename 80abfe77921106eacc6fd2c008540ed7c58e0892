@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff346bd7_acc5bf5d",
+        "filename": "rootdir/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13879
+      },
+      "writtenOn": "2015-09-20T05:59:31Z",
+      "side": 1,
+      "message": "Is stop mpdecision intentionally missing here? It is started in the end",
+      "revId": "80abfe77921106eacc6fd2c008540ed7c58e0892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
