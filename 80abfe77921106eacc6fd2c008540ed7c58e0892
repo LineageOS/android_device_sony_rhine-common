@@ -16,6 +16,24 @@
       "revId": "80abfe77921106eacc6fd2c008540ed7c58e0892",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff346bd7_6799301e",
+        "filename": "rootdir/init.qcom.power.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2015-09-20T12:16:38Z",
+      "side": 1,
+      "message": "mpdecision must be disabled to set this values",
+      "parentUuid": "ff346bd7_acc5bf5d",
+      "revId": "80abfe77921106eacc6fd2c008540ed7c58e0892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
