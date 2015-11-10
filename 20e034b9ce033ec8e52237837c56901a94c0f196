@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_b8e6f4e7",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-11-10T21:07:48Z",
+      "side": 1,
+      "message": "BT MAC is stored in data, class main won\u0027t work when encrypted. Need to test with late_start",
+      "revId": "20e034b9ce033ec8e52237837c56901a94c0f196",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
