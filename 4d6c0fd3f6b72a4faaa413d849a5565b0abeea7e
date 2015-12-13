@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f9dbf25_7bcbdf1d",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-12-13T23:28:32Z",
+      "side": 1,
+      "message": "Pending testing of mobile data on shinano.",
+      "revId": "4d6c0fd3f6b72a4faaa413d849a5565b0abeea7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
