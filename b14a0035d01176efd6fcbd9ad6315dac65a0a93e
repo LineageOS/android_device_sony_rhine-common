@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_c431d3ee",
+        "filename": "cm.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-04-19T10:25:31Z",
+      "side": 0,
+      "message": "Good, AOSP app is much nicer isn\u0027t it?",
+      "revId": "b14a0035d01176efd6fcbd9ad6315dac65a0a93e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
